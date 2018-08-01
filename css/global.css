@@ -50,6 +50,12 @@ body {
   #logo {
     width: 300px;
   }
+
+  #headshot {
+    display: block;
+    margin: auto;
+  }
+
   .navbar li {
     font-size: 30px;
   }
@@ -61,6 +67,12 @@ body {
     margin: auto;
     width: 200px;
   }
+  
+  #headshot {
+    display: block;
+    margin: auto;
+  }
+
   .navbar li {
     width: 100%;
     text-align: center;
