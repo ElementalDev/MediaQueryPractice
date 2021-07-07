@@ -45,3 +45,45 @@ body {
 .main-content {
   margin: 0 80px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1174px) {
+  #logo {
+    width: 300px;
+  }
+
+  #headshot {
+    display: block;
+    margin: auto;
+  }
+
+  .navbar li {
+    font-size: 30px;
+  }
+
+  .main-content {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  #logo {
+    display: block;
+    margin: auto;
+    width: 200px;
+  }
+
+  #headshot {
+    display: block;
+    margin: auto;
+  }
+
+  .navbar li {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .main-content {
+    margin: auto;
+  }
+}

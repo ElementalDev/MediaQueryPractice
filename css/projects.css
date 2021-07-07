@@ -18,3 +18,33 @@
 	display: block;
 	margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1174px){
+  .screenshot {
+    padding-top:30px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .tile {
+    width: 40%;
+  	display: block;
+    margin: auto;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .screenshot {
+    padding-top:30px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .tile {
+    width: 40%;
+  	display: block;
+    margin: auto;
+    border: none;
+  }
+}
